@@ -13,6 +13,14 @@ export default {
 
     const submit = () => {
       if (form.value.validate()) {
+        const project = {
+          title: title.value,
+          content: content.value,
+          due: due.value,
+          person: "Code Crusader",
+          status: "ongoing"
+        }
+        // TODO: Send POST project request to the database
         // form.value.reset();
         context.emit("projectAdded")
       }
