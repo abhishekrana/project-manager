@@ -6,7 +6,9 @@
 
 ![Add Project](assets/images/image-3.png "Add Project")
 
-![Team](assets/images/image-4.png "Team")
+![Projects](assets/images/image-4.png "Projects")
+
+![Team](assets/images/image-5.png "Team")
 
 ## Project Setup
 
