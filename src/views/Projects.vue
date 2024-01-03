@@ -44,7 +44,7 @@ export default {
 </script>
 
 <template>
-  <div class="projects">
+  <div class="projects bg-grey-lighten-3">
     <h1 class="subheading text-grey">Projects</h1>
     <v-container class="my-5">
       <v-expansion-panels v-for="project in myProjects" :key="project.title">
@@ -57,4 +57,8 @@ export default {
   </div>
 </template>
 
-<script scoped></script>
+<style scoped>
+.projects {
+  height: 100%;
+}
+</style>

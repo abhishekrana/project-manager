@@ -63,4 +63,8 @@ export default {
   </div>
 </template>
 
-<script scoped></script>
+<style scoped>
+.team {
+  height: 100%;
+}
+</style>

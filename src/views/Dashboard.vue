@@ -95,6 +95,9 @@ export default {
 </template>
 
 <style scoped>
+.dashboard {
+  height: 100%;
+}
 .project.complete {
   border-left: 4px solid green;
 }
